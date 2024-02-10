@@ -385,7 +385,7 @@ h3 {
   letter-spacing: 5px;
 }
 .bg__section__top:hover {
-  background-image: linear-gradient(rgba(231, 129, 107, 0.8), rgba(231, 129, 107, 0.8)), url("../images/home/desktop/image-graphic-design.jpg");
+  background-image: linear-gradient(rgba(231, 129, 107, 0.8), rgba(231, 129, 107, 0.8)), url("../images/home/desktop/image-app-design.jpg");
 }
 
 .bg-section__bottom {
