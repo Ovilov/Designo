@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+  @include reset;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+#active {
+  color: $dark-orange-color;
+}
+.btn {
+  padding: 18px 25px;
+  background-color: $wihte-color;
+  text-transform: uppercase;
+  color: $grey-color;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 8px;
+  &:hover {
+    background-color: $orange-color;
+    color: $wihte-color;
+  }
+}
+.btn__orange {
+  padding: 1.8rem;
+  background-color: $dark-orange-color;
+  text-transform: uppercase;
+  color: $wihte-color;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 8px;
+  &:hover {
+    background-color: $orange-color;
+    color: $wihte-color;
+  }
+}
+main {
+  flex-grow: 1;
+}
+.container {
+  width: 100%;
+  max-width: 121.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.orange {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $dark-orange-color;
+  border-radius: 1.5rem;
+  padding: 7.2rem 9.6rem;
+  margin-bottom: -7.2rem;
+  background-image: url("../images/shared/desktop/bg-pattern-call-to-action.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.orange__content {
+  color: $wihte-color;
+  width: 45.9rem;
+}
+.orange__title {
+  width: 30rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}

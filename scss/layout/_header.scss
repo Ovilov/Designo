@@ -1,0 +1,36 @@
+.herader {
+}
+.header__container {
+  padding-top: 6.4rem;
+  padding-bottom: 6.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 19.6rem;
+  height: 2.4rem;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.4;
+  }
+}
+.navbar {
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+.navbar__link {
+  color: $grey-color;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: $transition-time;
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,18 @@
+.btn-orange {
+  @include buttons($wihte-color, $dark-orange-color);
+  text-decoration: none;
+  transition: $transition-time;
+
+  &:hover {
+    @include buttons_hover($wihte-color, $orange-color);
+  }
+}
+.btn-black {
+  @include buttons($dark-color, transparent, $dark-color);
+  text-decoration: none;
+  transition: $transition-time;
+
+  &:hover {
+    @include buttons_hover($wihte-color, $dark-color);
+  }
+}
